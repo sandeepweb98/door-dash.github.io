@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.navbar-brand{
+    font-family: "Playwrite CU", cursive;
+}
+.navbar{
+    background-color: #f3c2d2;
+    padding: 50px;
+}
+#navbar-toggler{
+    background-color: #921A40;
+    
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(180, 16, 54, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+.bi-list{
+    color: #fff;
+}
+#btn{
+    background-color: #921A40;
+    padding: 3px 15px 3px 15px;
+    color: #F9FBE7;
+}
+#btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(180, 16, 54, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bi-person-circle, .bi-bag{
+    color: #921A40;
+    cursor: pointer;
+}
+h4,h1{
+    font-size: 16px;
+}
+.bag{
+    color: #F9FBE7;
+}
+#heading{
+    color: #921A40;
+}
+#btn-out, #btn-hero{
+    border-color: #921A40;
+    padding: 3px 10px 3px 10px;
+    color: #921A40;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+#btn-out:hover{
+    background-color: #921A40;
+    color: #F9FBE7;
+    box-shadow: 0 4px 8px 0 rgba(180, 16, 54, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#btn-hero, .bag{
+    font-size: 17px;
+    color: #F9FBE7;
+    background-color: #921A40;
+}
